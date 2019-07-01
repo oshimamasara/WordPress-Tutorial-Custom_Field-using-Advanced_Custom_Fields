@@ -32,7 +32,9 @@
 			<h2><a href="<?php esc_url( the_permalink() ); ?>" rel="bookmark"><?php esc_html( the_title() ); ?></a></h2>
 		<?php endif; ?>
 
-		<div class="entry-meta "><?php xclean_post_meta(); ?></div>
+		<h4>価格: <?php the_field('Price'); ?> 円</h4>
+		<h4>アレルギー: <?php the_field('allergy'); ?></h4>
+		
 	</div><!-- End .entry-description -->
 
 	<div class="entry-content">

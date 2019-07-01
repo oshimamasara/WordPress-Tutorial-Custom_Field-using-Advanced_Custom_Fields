@@ -372,4 +372,6 @@ if ( ! function_exists( 'xclean_removeDemoModeLink' ) ) :
 
 add_action( 'init', 'xclean_removeDemoModeLink' );
 endif;
+
+
 ?>
